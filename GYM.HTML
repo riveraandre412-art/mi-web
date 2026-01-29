@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi experiencia en el gym</title>
+
+    <!-- Estilos externos -->
+    <link rel="stylesheet" href="pozole.css">
+    <link rel="stylesheet" href="dis_gym.css">
+
+    <!-- Estilos internos de respaldo -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* MENÚ */
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: #111;
+            display: flex;
+        }
+
+        .menu li {
+            position: relative;
+        }
+
+        .menu a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            background: #333;
+        }
+
+        /* SUBMENÚ */
+        .submenu {
+            display: none;
+            position: absolute;
+            background: #222;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-width: 180px;
+        }
+
+        .submenu li a {
+            padding: 12px;
+        }
+
+        .menu li:hover .submenu {
+            display: block;
+        }
+
+        /* CONTENIDO */
+        .contenido {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .contenido h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* IMAGEN */
+        .foto-perfil {
+            display: flex;
+            justify-content: center;
+            margin: 25px 0;
+        }
+
+        .foto-perfil img {
+            width: 240px;
+            max-width: 80%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+        .contenido p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+
+<ul class="menu">
+    <li><a href="index.html">Inicio</a></li>
+
+    <li>
+        <a href="#">Sobre mí</a>
+        <ul class="submenu">
+            <li><a href="index2.html">¿Quién soy?</a></li>
+            <li><a href="index3.html">Pasatiempos</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#">DEPORTES PRACTICADOS</a>
+        <ul class="submenu">
+            <li><a href="FUTBOL.html">FÚTBOL</a></li>
+            <li><a href="GYM.html">GYM</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#">Mejores recuerdos</a>
+        <ul class="submenu">
+            <li><a href="recuerdo1.html">Recuerdo 1</a></li>
+            <li><a href="recuerdo2.html">Recuerdo 2</a></li>
+        </ul>
+    </li>
+</ul>
+
+<main class="contenido">
+    <h1>Mi experiencia en el gym</h1>
+
+    <div class="foto-perfil">
+        <img src="gym.png" alt="Experiencia de Mauricio en el gimnasio">
+    </div>
+
+    <p>
+        Mi experiencia en el gimnasio fue muy positiva. Empecé por motivos emocionales, buscando
+        mejorar mi bienestar personal y sentirme mejor conmigo mismo.
+    </p>
+
+    <p>
+        Poco a poco fui conociendo gente y conviviendo con personas que me apoyaron durante este proceso,
+        lo que me permitió ganar más confianza tanto en mí como con los demás.
+    </p>
+
+    <p>
+        Gracias a esta experiencia, actualmente conozco a muchas personas dentro del ámbito del gimnasio,
+        incluyendo tanto a mis <strong>coaches</strong> como a mis <strong>compañeros</strong>.
+        Además, he aprendido el valor de la constancia, la disciplina y el trabajo en equipo.
+    </p>
+</main>
+
+</body>
+</html>
