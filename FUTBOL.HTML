@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi experiencia en el fútbol</title>
+
+    <!-- Estilos externos -->
+    <link rel="stylesheet" href="pozole.css">
+    <link rel="stylesheet" href="fut.css">
+
+    <!-- Estilos internos de respaldo -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* MENÚ */
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: #111;
+            display: flex;
+        }
+
+        .menu li {
+            position: relative;
+        }
+
+        .menu a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            background: #333;
+        }
+
+        /* SUBMENÚ */
+        .submenu {
+            display: none;
+            position: absolute;
+            background: #222;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-width: 180px;
+        }
+
+        .submenu li a {
+            padding: 12px;
+        }
+
+        .menu li:hover .submenu {
+            display: block;
+        }
+
+        /* CONTENIDO */
+        .contenido {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .contenido h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* IMAGEN */
+        .foto-perfil {
+            display: flex;
+            justify-content: center;
+            margin: 25px 0;
+        }
+
+        .foto-perfil img {
+            width: 240px;
+            max-width: 80%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+        .contenido p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+
+<ul class="menu">
+    <li><a href="indice.html">Inicio</a></li>
+
+    <li>
+        <a href="#">Sobre mí</a>
+        <ul class="submenu">
+            <li><a href="indice2.html">¿Quién soy?</a></li>
+            <li><a href="indice3.html">Pasatiempos</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#">DEPORTES PRACTICADOS</a>
+        <ul class="submenu">
+            <li><a href="FUTBOL.html">FÚTBOL</a></li>
+            <li><a href="GYM.html">GYM</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#">Mejores recuerdos</a>
+        <ul class="submenu">
+            <li><a href="recuerdo1.html">Recuerdo 1</a></li>
+            <li><a href="recuerdo2.html">Recuerdo 2</a></li>
+        </ul>
+    </li>
+</ul>
+
+<main class="contenido">
+    <h1>Mi experiencia en el fútbol</h1>
+
+    <div class="foto-perfil">
+        <img src="fut2.png" alt="Experiencia de Mauricio en el fútbol">
+    </div>
+
+    <p>
+        El fútbol siempre ha sido una de las actividades que más me han gustado, ya que me
+        permitía divertirme y pasar buenos momentos, especialmente cuando jugaba con uno
+        de mis amigos, con quien compartí muchas experiencias dentro y fuera de la cancha.
+    </p>
+
+    <p>
+        Todo comenzó cuando cursaba la preparatoria. En ese tiempo entré a formar parte de
+        un equipo, y fue ahí donde descubrí que mi mejor posición dentro del campo era
+        <strong>defensa lateral</strong>, ya que se me facilitaba defender y apoyar al equipo.
+    </p>
+
+    <p>
+        Además, uno de mis profesores de la preparatoria influyó mucho en mi gusto por el fútbol,
+        ya que me dio la confianza necesaria para jugar, mejorar y creer en mis capacidades
+        dentro del equipo.
+    </p>
+
+    <p>
+        Gracias a ese apoyo, tuve la oportunidad de participar en un
+        <strong>campeonato entre preparatorias</strong>, lo cual fue una experiencia muy importante
+        para mí, llena de aprendizaje, compañerismo y buenos recuerdos.
+    </p>
+</main>
+
+</body>
+</html>

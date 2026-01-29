@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenido {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contenido h1 {
+    text-align: center;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+.contenido p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+.contenido strong {
+    color: #006400; 
+}
