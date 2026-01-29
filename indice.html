@@ -38,4 +38,19 @@
     </li>
 </ul>
 </body>
+    // Registro del Service Worker (solo si el navegador lo soporta)
+    <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then((reg) => {
+        console.log('Service Worker registrado correctamente', reg);
+      })
+      .catch((err) => {
+        console.error('Error al registrar Service Worker:', err);
+      });
+  });
+}
+    </script>
 </html>
+
